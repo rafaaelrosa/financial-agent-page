@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meu Financeiro — Seu controle financeiro direto no WhatsApp</title>
+  <meta name="description" content="Registre gastos por texto ou áudio, consulte saldos e faturas e organize as finanças da casa. Tudo no WhatsApp, com IA. 7 dias grátis." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Meu Financeiro — Seu controle financeiro no WhatsApp" />
+  <meta property="og:description" content="Registre gastos por texto ou áudio e organize as finanças da casa. Tudo no WhatsApp, com IA." />
+  <meta property="og:locale" content="pt_BR" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%232563eb'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'%3E%24%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a class="brand" href="#top">
+        <span class="brand-mark">$</span>
+        <span class="brand-name">Meu Financeiro</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#features">Recursos</a>
+        <a href="#how">Como funciona</a>
+        <a href="#pricing">Preço</a>
+        <a href="#faq">Dúvidas</a>
+      </nav>
+      <a class="btn btn-primary nav-cta" href="#" data-wa>Começar agora</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">☰</button>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="pill">🤖 IA no WhatsApp · 7 dias grátis</span>
+        <h1>Seu controle financeiro<br /><span class="accent">direto no WhatsApp.</span></h1>
+        <p class="lead">
+          Mande um áudio ou texto e pronto: o gasto entra organizado.
+          Pergunte quanto gastou, veja saldo e fatura do cartão — sem planilha, sem app pra baixar.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" href="#" data-wa>
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.668-.985z"/></svg>
+            Falar no WhatsApp
+          </a>
+          <a class="btn btn-ghost btn-lg" href="#how">Ver como funciona</a>
+        </div>
+        <p class="microcopy">Sem cartão pra testar · cancela quando quiser</p>
+      </div>
+
+      <!-- Chat mockup -->
+      <div class="hero-visual">
+        <div class="phone">
+          <div class="phone-bar">
+            <span class="phone-avatar">$</span>
+            <div>
+              <strong>Meu Financeiro</strong>
+              <small>online</small>
+            </div>
+          </div>
+          <div class="chat">
+            <div class="bubble in">Gastei 45 no mercado no débito 🛒</div>
+            <div class="bubble out">✅ Anotado: <b>R$ 45,00</b> · Mercado · débito</div>
+            <div class="bubble in audio">🎙️ Áudio 0:04</div>
+            <div class="bubble out">✅ <b>R$ 89,90</b> · Farmácia · crédito Nubank (3x)</div>
+            <div class="bubble in">quanto gastei esse mês?</div>
+            <div class="bubble out">
+              📊 Junho: <b>R$ 2.140</b><br />
+              🛒 Mercado R$ 760 · 🍔 Comida R$ 420 · ⛽ Transporte R$ 310 …
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Trust strip ===== -->
+  <section class="trust">
+    <div class="container trust-grid">
+      <div><strong>Texto &amp; áudio</strong><span>manda do seu jeito</span></div>
+      <div><strong>IA entende</strong><span>categoriza sozinha</span></div>
+      <div><strong>Multiusuário</strong><span>a casa toda junta</span></div>
+      <div><strong>7 dias grátis</strong><span>depois R$ 17,80/mês</span></div>
+    </div>
+  </section>
+
+  <!-- ===== Features ===== -->
+  <section class="section" id="features">
+    <div class="container">
+      <h2 class="section-title">Tudo que você precisa, numa conversa</h2>
+      <p class="section-sub">Nada de abrir app, preencher formulário ou montar planilha. Você fala, a IA organiza.</p>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-ico">🎙️</div>
+          <h3>Registre por texto ou áudio</h3>
+          <p>"Gastei 30 no Uber" ou um áudio de 4 segundos. A IA entende valor, categoria e forma de pagamento.</p>
+        </article>
+        <article class="card">
+          <div class="card-ico">📊</div>
+          <h3>Pergunte quando quiser</h3>
+          <p>"Quanto gastei com comida esse mês?" Resposta na hora, com total e por categoria.</p>
+        </article>
+        <article class="card">
+          <div class="card-ico">💳</div>
+          <h3>Saldo e fatura do cartão</h3>
+          <p>Veja saldo das contas e a fatura do cartão somada no mês, incluindo compras parceladas.</p>
+        </article>
+        <article class="card">
+          <div class="card-ico">🏷️</div>
+          <h3>Categorias automáticas</h3>
+          <p>Mercado, transporte, farmácia… a IA classifica e você ajusta com uma mensagem.</p>
+        </article>
+        <article class="card">
+          <div class="card-ico">👨‍👩‍👧</div>
+          <h3>Conta da casa</h3>
+          <p>Marido, esposa, filhos — todos lançam no mesmo lugar, com visão unificada dos gastos.</p>
+        </article>
+        <article class="card">
+          <div class="card-ico">↩️</div>
+          <h3>Editar e desfazer</h3>
+          <p>Errou o valor? "Corrige pra 50". Lançou errado? "Apaga o último". Simples assim.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== How it works ===== -->
+  <section class="section section-alt" id="how">
+    <div class="container">
+      <h2 class="section-title">Funciona em 3 passos</h2>
+      <div class="steps">
+        <div class="step">
+          <span class="step-n">1</span>
+          <h3>Adicione no WhatsApp</h3>
+          <p>Toque em começar e mande um "oi". Em segundos você está pronto pra usar.</p>
+        </div>
+        <div class="step">
+          <span class="step-n">2</span>
+          <h3>Conte seus gastos</h3>
+          <p>Texto ou áudio, do seu jeito. A IA registra organizado, com categoria e forma de pagamento.</p>
+        </div>
+        <div class="step">
+          <span class="step-n">3</span>
+          <h3>Consulte e decida</h3>
+          <p>Pergunte saldos, gastos por categoria e fatura. Tenha clareza sem esforço.</p>
+        </div>
+      </div>
+      <div class="center">
+        <a class="btn btn-primary btn-lg" href="#" data-wa>Quero começar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Pricing ===== -->
+  <section class="section" id="pricing">
+    <div class="container">
+      <h2 class="section-title">Um plano, tudo incluído</h2>
+      <p class="section-sub">Comece grátis. Só paga se gostar.</p>
+
+      <div class="price-wrap">
+        <div class="price-card">
+          <span class="price-tag">Plano único</span>
+          <div class="price">
+            <span class="price-currency">R$</span>
+            <span class="price-value">17,80</span>
+            <span class="price-period">/mês</span>
+          </div>
+          <p class="price-trial">🎁 7 dias grátis · você só é cobrado depois</p>
+          <ul class="price-list">
+            <li>Registro ilimitado por texto e áudio</li>
+            <li>Consultas de gastos, saldo e fatura</li>
+            <li>Categorias automáticas e parcelas</li>
+            <li>Conta compartilhada da casa</li>
+            <li>Editar, excluir e desfazer lançamentos</li>
+            <li>Cancele quando quiser</li>
+          </ul>
+          <a class="btn btn-primary btn-lg btn-block" href="#" data-wa>Começar 7 dias grátis</a>
+          <p class="microcopy center">Sem cartão para testar</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section section-alt" id="faq">
+    <div class="container container-narrow">
+      <h2 class="section-title">Dúvidas frequentes</h2>
+      <div class="faq">
+        <details>
+          <summary>Preciso baixar algum app?</summary>
+          <p>Não. Tudo acontece dentro do WhatsApp que você já usa.</p>
+        </details>
+        <details>
+          <summary>Como registro um gasto?</summary>
+          <p>Mande uma mensagem de texto ("gastei 45 no mercado") ou um áudio. A IA entende valor, categoria e forma de pagamento e registra organizado.</p>
+        </details>
+        <details>
+          <summary>Funciona com áudio mesmo?</summary>
+          <p>Sim. Grave um áudio falando o gasto e ele entra automaticamente — ótimo pra lançar na correria.</p>
+        </details>
+        <details>
+          <summary>Dá pra usar em família?</summary>
+          <p>Sim. Várias pessoas da casa lançam no mesmo lugar, com visão unificada dos gastos.</p>
+        </details>
+        <details>
+          <summary>Quanto custa e tem teste grátis?</summary>
+          <p>São 7 dias grátis. Depois R$ 17,80 por mês. Você só é cobrado após o período de teste e cancela quando quiser.</p>
+        </details>
+        <details>
+          <summary>Meus dados estão seguros?</summary>
+          <p>Cada pessoa só enxerga os dados da própria conta. Suas informações ficam isoladas e protegidas.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Final CTA ===== -->
+  <section class="cta-final">
+    <div class="container center">
+      <h2>Pare de perder o controle dos gastos.</h2>
+      <p>Comece agora, leva menos de um minuto.</p>
+      <a class="btn btn-primary btn-lg" href="#" data-wa>Começar no WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="#top">
+          <span class="brand-mark">$</span>
+          <span class="brand-name">Meu Financeiro</span>
+        </a>
+        <p class="footer-tag">Seu controle financeiro direto no WhatsApp.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#features">Recursos</a>
+        <a href="#pricing">Preço</a>
+        <a href="#faq">Dúvidas</a>
+        <a href="#" data-wa>WhatsApp</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span id="year"></span> Meu Financeiro · Feito no Brasil 🇧🇷
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
