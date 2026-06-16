@@ -1,8 +1,8 @@
-// Agente IA Financeiro — landing interactions
+// Severino — landing interactions
 (function () {
   // --- WhatsApp CTA: edite número/mensagem aqui ---
   const WHATSAPP_NUMBER = "5515998491972";
-  const WHATSAPP_MSG = "Oi! Quero começar a usar o Agente IA Financeiro 🙂";
+  const WHATSAPP_MSG = "Oi, Severino! Quero começar a usar 🙂";
   const waUrl =
     "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(WHATSAPP_MSG);
 

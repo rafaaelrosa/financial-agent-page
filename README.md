@@ -1,4 +1,4 @@
-# Agente IA Financeiro — Landing Page
+# Severino — Landing Page
 
 Static landing page for the WhatsApp financial assistant. No build step — plain HTML/CSS/JS, deploys to GitHub Pages as-is.
 
