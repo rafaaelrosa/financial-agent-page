@@ -169,6 +169,7 @@ img, svg { display: block; }
   transition: transform .15s ease, border-color .2s ease;
 }
 .card:hover { transform: translateY(-4px); border-color: var(--accent); }
+.card-center { grid-column: 2; }
 .card-ico {
   width: 48px; height: 48px; border-radius: 12px; background: var(--accent-soft);
   display: grid; place-items: center; font-size: 24px; margin-bottom: 16px;
@@ -262,6 +263,7 @@ img, svg { display: block; }
   .hero-grid { grid-template-columns: 1fr; gap: 40px; }
   .hero-visual { order: -1; }
   .cards, .steps, .examples { grid-template-columns: 1fr; }
+  .card-center { grid-column: auto; }
   .trust-grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 520px) {
